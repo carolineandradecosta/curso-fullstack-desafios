@@ -1,0 +1,79 @@
+h1{
+    text-align:center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+	background: #43638d;
+	padding: 20px 0;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+}
+
+
+nav li {
+	display: block;
+	margin: 0 0 0 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+nav a {
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration:none;
+}
+
+body {
+    font-family:'Gill Sans';
+    background-color: #6584ac;
+    color: #000000;
+}
+
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #aec7db;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+section, ul{
+    list-style-type:disc;
+    padding: 15px;
+}
+
+
+img{
+    width: 2%;
+}
+
+#fotoperfil{
+    width: 105px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #43638d;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
